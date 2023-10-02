@@ -1,9 +1,12 @@
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app_ui_setup/Screens/home_screen.dart';
+import 'package:news_app_ui_setup/services/get_news.dart';
 import 'package:news_app_ui_setup/widgets/category_card.dart';
 
 void main() {
   runApp(const MyApp());
+  GetNews().getHttp();
 }
 
 class MyApp extends StatelessWidget {
