@@ -6,7 +6,7 @@ import 'package:news_app_ui_setup/widgets/category_card.dart';
 
 void main() {
   runApp(const MyApp());
-  GetNews().getHttp();
+
 }
 
 class MyApp extends StatelessWidget {
