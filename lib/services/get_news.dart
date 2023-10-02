@@ -14,9 +14,7 @@ class GetNews {
     ArticleModel obj=  ArticleModel(title:art["title"]  ,image:art["url"], supTitle:art["description"] );
       articles.add(obj);
     }
-    for (var art in articles){
-      print(art.title);
-    }
+
 
    // print(article);
   }
